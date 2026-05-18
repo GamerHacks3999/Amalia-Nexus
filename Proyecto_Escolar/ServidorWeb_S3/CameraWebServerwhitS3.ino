@@ -10,8 +10,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char *ssid = "MEGACABLE-00A0";
-const char *password = "NAeVE68E";
+const char *ssid = "Introduce tu wifi";
+const char *password = "Introduce tu contraseña";
 
 void startCameraServer();
 void setupLedFlash();
@@ -107,7 +107,7 @@ void setup() {
   setupLedFlash();
 #endif
 
-  Serial.println("Conectando al WiFi MEGACABLE-00A0...");
+  Serial.println("Conectando al WiFi...");
   WiFi.begin(ssid, password);
   WiFi.setSleep(false);
 
